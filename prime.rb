@@ -1,4 +1,4 @@
-def prime(n)
+def prime?(n)
   factor=2
   until factor**2>n
     return false if n%factor==0
